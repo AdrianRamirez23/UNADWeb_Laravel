@@ -25,4 +25,9 @@ Route::get('/new', function () {
     return view('new');
 });
 
+Route::get('/system', function () {
+    return view('SystemSection');
+});
+
+
 
